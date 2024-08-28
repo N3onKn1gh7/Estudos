@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>TAGS BÁSICAS DO HTML</title>
+    </head>
+    <body>
+        <h1>TAGS BÁSICAS DO HTML</h1>
+        <hr />
+
+      <h2 id="indice">ìndice das Tags</h2>
+      <ul>
+         <li><a href="#tag_h">h</a></li>
+         <li><a href="#tag_p">p</a></li>
+         <li><a href="#mark">mark</a></li>
+         <li><a href="#small">small</a></li>
+         <li><a href="#li">li</a></li>
+         <li><a href="#u">u</a></li>
+         <li><a href="#strong">strong</a></li>
+         <li><a href="#ol">ol</a></li>
+         <li><a href="#ul">ul</a></li>
+         <li><a href="#a">a</a></li>
+         <li><a href="#hr">hr</a></li>
+         <li><a href="#sub">sub</a></li>
+         <li><a href="#sup">sup</a></li>
+         <li><a href="#blackquote">blackquote</a></li>
+         <li><a href="#font">font</a></li>
+         <li><a href="#del">del</a></li>
+         <li><a href="#abbr">abbr</a></li>
+     </ul>
+     <br><br>
+
+     <p><a href="#ref">Referências</a></p>
+
+     <br><br>
+
+     <hr/>
+
+      <h2>De onde surgiram as tags do HTML?</h2>
+      <p> As Tags do HTML foram inventadas por <a href="https://pt.wikipedia.org/wiki/Tim_Berners-Lee"target="_blank"><mark>Tim Berners Lee</mark></a>.
+         Ele é o criador da <strong>World Wide Web (WWW)</strong> e
+         desenvolveu o <strong>HTML</strong> (HyperText Markup Language) no final dos anos 1980 e início dos anos 1990
+         enquanto trabalhava no CERN (Organização Europeia para a Pesquisa Nuclear).Tim Berners-Lee
+         criou as primeiras versões do HTML para permitir a formatação de textos e a criação de links
+         entre documentos, facilitando o compartilhamento de informações entre pesquisadores.
+         A primeira proposta formal do HTML foi publicada em 1991, e desde então, a linguagem evoluiu
+         bastante, passando por várias revisões e atualizações, como HTML 2.0, HTML 3.2, HTML 4.01, XHTML,
+         até chegar ao HTML5, que é a versão mais recente e amplamente utilizada hoje em dia. Então, podemos
+         dizer que Tim Berners-Lee é o "pai" das tags HTML, pois ele estabeleceu os princípios e as primeiras
+         especificações da linguagem que se tornaria a base da web como a conhecemos hoje.
+     </p>
+
+     <hr/>
+
+      <h2 id="tag_h">Tags h1,h2,h3,h4,h5,h6:</h2>
+      
+      
+     <p>Tags h são usadas para identificar o cabeçalho ou título de um texto. Onde os valores de 1 a 6
+        indicam a sua importância no texto. Por exemplo: h1 normalmente é usada para o titulo principal equanto
+        h2 e h3 para subtítulos e assim por diante. Geralmente não se usa mais do que uma tag h1 em uma
+        página
+     </p>
+
+      <p>Exemplo:</p>
+      <pre><code>&lt;h1&gt;Este é um cabeçalho de nivel 1&lt;/h1&gt;</code></pre>
+      <pre><code>&lt;h2&gt;Este é um cabeçalho de nivel 2&lt;/h2&gt;</code></pre>
+      <pre><code>&lt;h3&gt;Este é um cabeçalho de nivel 3&lt;/h3&gt;</code></pre>
+      <pre><code>&lt;h4&gt;Este é um cabeçalho de nivel 4&lt;/h4&gt;</code></pre>
+      <pre><code>&lt;h5&gt;Este é um cabeçalho de nivel 5&lt;/h5&gt;</code></pre>
+      <pre><code>&lt;h6&gt;Este é um cabeçalho de nivel 6&lt;/h6&gt;</code></pre>
+
+
+      <h1>Este é um cabeçalho de nivel 1</h1>
+      <h2>Este é um cabeçalho de nivel 2</h2>
+      <h3>Este é um cabeçalho de nivel 3</h3>
+      <h4>Este é um cabeçalho de nivel 4</h4>
+      <h5>Este é um cabeçalho de nivel 5</h5>
+      <h6>Este é um cabeçalho de nivel 6</h5>
+
+        <p><a href="#indice">Voltar ao Índice</a></p>
+        <hr/>
+
+
+       <h2 id="tag_p">Tag p:</h2>
+        <p>A tag p delimita o local onde o texto será escrito. É chamada de p devido ao "paragrafo" dos textos</p>
+        <p>Exemplo:</p>
+        <pre><code>&lt;p&gt;O céu do porto tinha a cor de uma televisão sintonizada num canal fora do ar&lt;/p&gt;</code></pre>
+
+        <p><a href="#indice">Voltar ao Índice</a></p>
+        <hr/>
+
+        <h2 id="mark">Tag mark:</h2>
+        <p>Utilizada para marcar um trecho importante do texto. Como exemplo, nesta mesma página um trecho foi marcado
+            com a tag mark
+        </p>
+        <p>Exemplo:</p>
+        <pre><code>&lt;mark&gt;Tim Berners Lee&lt;/mark&gt;</code></pre>
+        <img width="300" src="./img/img.png" alt="Imagem de um texto usando a tag mark">
+
+        <p><a href="#indice">Voltar ao Índice</a></p>
+        <hr/>
+
+        <h2 id="small">Tag small</h2>
+        <p>É usada para representar texto de menor importância ou de menor escala. Visualmente,
+            ela geralmente exibe o texto em uma fonte menor do que o texto circundante.
+            Tradicionalmente é utilizada para avisos legais, notas de rodapé, disclaimers ou
+            qualquer outro texto que deva ser destacado de maneira menos proeminente.
+        </p>
+        <p>Exemplo do código:</p>
+
+        <pre><code>&lt;p&gt;O céu do porto tinha a cor de uma televisão sintonizada num canal fora do ar&lt;/p&gt;</code></pre>
+        <pre><code>&lt;small&gt;"trecho retirado do livro Neuromancer de Willian Gibson"&lt;/small&gt;</code></pre>
+
+        <p>Como fica na pagina:</p>
+
+        <p>O céu do porto tinha a cor de uma televisão sintonizada num canal fora do ar</p>
+        <small>"trecho retirado do livro Neuromancer de Willian Gibson"</small>
+
+        <p><a href="#indice">Voltar ao Índice</a></p>
+        <hr/>
+
+        <h2 id="li">Tag li</h2>
+        <p>Utilizada para descrever o conteudo de uma lista, pode ser usada como
+            <strong> listas ordenadas</strong> ou <strong>listas não ordenadas</strong> como
+            veremos mais à frente.
+        </p>
+        <pre><code>&lt;li&gt;conteúdo da lista&lt;/li&gt;</code></pre>
+
+        <p><a href="#indice">Voltar ao Índice</a></p>
+
+        <h2 id="u">Tag u</h2>
+        <p>Utilizada para sublinhar um texto</p>
+        <p>Exemplo:</p>
+        <pre><code>&lt;p&gt;Texto simples&lt;/p&gt;</code></pre>
+        <pre><code>&lt;u&gt;Texto sublinhado&lt;/u&gt;</code></pre>
+
+        <p>texto simples</p>
+        <u>texto sublinhado</u>
+
+        <p><a href="#indice">Voltar ao Índice</a></p>
+        <hr/>
+
+        <h2 id="strong">Tag strong</h2>
+        <p>Deixa a tipagem das palavras mais fortes, como se estivessem em negrito</p>
+        <p>exemplo:</p>
+        <pre><code>&lt;p&gt;&lt;strong&gt;texto em negrito com tag strong&lt;/strong&gt;&lt;/p&gt;</code></pre>
+        <p><strong>texto em negrito com a tag strong</strong></p>
+
+        <p><a href="#indice">Voltar ao Índice</a></p>
+        <hr/>
+
+        <h2 id="ol">Tag ol</h2>
+        <p>Inicia uma lista numerada. Ela é sempre a tag "pai" da tag li</p>
+        <p>exemplo de uma lista de itens de escritorio:</p>
+
+        <pre><code>&lt;ol&gt;</code></pre>
+
+        <pre><code>&lt;li&gt;Cadeira&lt;/li&gt;</code></pre>
+        <pre><code>&lt;li&gt;Mesa&lt;/li&gt;</code></pre>
+        <pre><code>&lt;li&gt;Notebook&lt;/li&gt;</code></pre>
+        <pre><code>&lt;li&gt;Monitor&lt;/li&gt;</code></pre>
+        <pre><code>&lt;li&gt;Teclado bluetooth&lt;/li&gt;</code></pre>
+        <pre><code>&lt;li&gt;Mouse bluetooth&lt;/li&gt;</code></pre>
+
+        <pre><code>&lt;/ol&gt;</code></pre>
+
+        <p>Na página, o exemplo ficaria assim:</p>
+
+        <ol>
+            <li>Cadeira</li>
+            <li>Mesa</li>
+            <li>Notebook</li>
+            <li>Monitor</li>
+            <li>Teclado bluetooth</li>
+            <li>Mouse bluetooth</li>
+        </ol>
+
+        <p><a href="#indice">Voltar ao Índice</a></p>
+        <hr/>
+
+        <h2 id="ul">Tag ul</h2>
+        <p>Segue o mesmo sistema da tag ol, porém sem numeração</p>
+        <p>O mesmo exemplo de itens de escritório, porém sem numeração:</p>
+
+        <pre><code>&lt;ol&gt;</code></pre>
+
+        <pre><code>&lt;li&gt;Cadeira&lt;/li&gt;</code></pre>
+        <pre><code>&lt;li&gt;Mesa&lt;/li&gt;</code></pre>
+        <pre><code>&lt;li&gt;Notebook&lt;/li&gt;</code></pre>
+        <pre><code>&lt;li&gt;Monitor&lt;/li&gt;</code></pre>
+        <pre><code>&lt;li&gt;Teclado bluetooth&lt;/li&gt;</code></pre>
+        <pre><code>&lt;li&gt;Mouse bluetooth&lt;/li&gt;</code></pre>
+
+        <pre><code>&lt;/ol&gt;</code></pre>
+
+        <p>Na página, o exemplo ficaria assim:</p>
+
+        <ul>
+            <li>Cadeira</li>
+            <li>Mesa</li>
+            <li>Notebook</li>
+            <li>Monitor</li>
+            <li>Teclado bluetooth</li>
+            <li>Mouse bluetooth</li>
+        </ul>
+
+        <p><a href="#indice">Voltar ao Índice</a></p>
+        <hr/>
+
+        <h2 id="a">Tag a</h2>
+        <p> Usada para criar hyperlinks, que são links clicáveis
+            que permitem aos usuários navegar entre diferentes páginas da web, partes
+            da mesma página ou mesmo abrir recursos externos, como arquivos ou endereços de
+            e-mail. É uma das tags mais importantes e amplamente usadas em HTML.
+        </p>
+
+        <p>Exemplos:</p>
+
+        <pre><code>&lt;a href="https://wwww.paginaweb.com"&gt;visite a página web&lt;/a&gt;</code></pre>
+        <pre><code>&lt;a href="mailto:email@exemplo.com"&gt;envie um e-mail&lt;/a&gt;</code></pre>
+        <pre><code>&lt;a href="documentos/arquivo.pdf"&gt;baixe o arquivo PDF&lt;/a&gt;</code></pre>
+        <pre><code>&lt;a href="https://www.exemplo.com" target="_blank"&gt;abrir em uma nova aba&lt;/a&gt;</code></pre>
+
+        <p>Como link para uma seção:</p>
+
+        <pre><code>&lt;a href="#secao"&gt;Vá para a seção&lt;/a&gt;</code></pre>
+
+        <p>Nesse caso de haver um identificador de referência para o link:</p>
+
+        <pre><code>&lt;h2 id="secao"&gt;secao alvo&lt;/h2&gt;</code></pre>
+
+        <p><a href="#indice">Voltar ao Índice</a></p>
+        <hr/>
+
+        <h2 id="hr">Tag hr</h2>
+
+        <P> A tag hr, simplesmente insere uma linha, por exemplo, para separar um conteúdo
+            como é visto ao longo dessa página. Ela não possui abertura,
+            é uma tag auto fechada.
+        </P>
+
+
+        <pre><code>&lt;hr/&gt;</code></pre>
+
+        <p><a href="#indice">Voltar ao Índice</a></p>
+        <hr/>
+
+        <h2 id="sub">Tag sub</h2>
+        <p>O marcador <SUB></SUB> "Subscript Element" ou subscrito é utilizado escrever um texto com letras 
+            menores e com o alinhamento abaixo das que do resto do conteúdo.
+        </p>
+
+        <p>exemplo:</p>
+        <p>O benzeno é um hidrocarboneto aromático cuja fórmula química é:</p>
+        <pre><code>&lt;p&gt;C&lt;sub&gt;6&lt;/sub&gt;H&lt;sub&gt;6&lt;/sub&gt; - Seis átomos de carbono e seis de hidrogênio.&lt;/p&gt;</code></pre>
+
+        <p>C<sub>6</sub>H<sub>6</sub> - Seis átomos de carbono e seis de hidrogênio.</p>
+
+        <p><a href="#indice">Voltar ao Índice</a></p>
+        <hr/>
+
+        <h2 id="sup">Tag sup</h2>
+        <p>O marcador <SUP></SUP> "Superscript Element" ou sobrescrito é utilizado escrever um texto com 
+            letras menores e com o alinhamento acima das que do resto do conteúdo.
+        </p>
+
+        <p>Exemplo</p>
+
+        <pre><code>&lt;p&gt;2&lt;sub&gt;2&lt;/sub&gt;&lt;/p&gt;</code></pre>
+
+        <p>2<sup>2</sup></p>
+
+        <p><a href="#indice">Voltar ao Índice</a></p>
+        <hr/>
+
+        <h2 id="blackquote">Tag blackquote</h2>
+
+        <p>O marcador  blockquote (Block Quotation) ou citação é utilizado para inserir um comentário de 
+            forma destacada com recuo de margem e espaçamento diante da linha anterior e diante da linha 
+            posterior.
+        </p>
+
+        <p>exemplo:</p>
+
+        <pre><code>&lt;p&gt;Na prova de Fórmula 1 realizada ontem, em Montreal, Canadá, ocorreram diversos incidentes&lt;blockquote&gt;Derrapagens, devido a pista estar bastante escorregadia, diversas colisões, inclusive entre pilotos da mesma equipe.&lt;/blockquote&gt;&lt;/p&gt;</code></pre>
+
+        <br><br>
+
+        <p>Na prova de Fórmula 1 realizada ontem, em Montreal, Canadá, ocorreram diversos incidentes <blockquote>Derrapagens, devido a pista estar bastante escorregadia, diversas colisões, inclusive entre pilotos da mesma equipe.</blockquote> que paralisaram a prova várias vezes.</p>
+
+        <p><a href="#indice">Voltar ao Índice</a></p>
+        <hr/>
+        
+
+        <h2 id="font">Tag font</h2>
+
+        <p> A tag font era usada em versões antigas do HTML para aplicar estilos de fonte diretamente no HTML,
+            como cor, tamanho e tipo de fonte. No entanto, essa tag foi descontinuada e considerada obsoleta no
+            HTML 4.01 e removida no HTML5. Atualmente, o uso de CSS é a maneira recomendada para estilizar texto
+            e aplicar estilos de fonte.
+        </p>
+
+        <p>Embora não seja mais recomendada, aqui está a sintaxe básica da tag font:</p>
+
+        <pre><code>&lt;font color="red" size="4" face="Arial"&gt;Exemplo de utilização da tag font&lt;/font&gt;</code></pre>
+
+        <p><a href="#indice">Voltar ao Índice</a></p>
+        <hr/>
+
+        <h2 id="del">Tag del</h2>
+
+        <p> A tag del em HTML é usada para marcar texto que foi deletado ou removido de um documento.
+            Visualmente, ela geralmente renderiza o texto com uma linha riscada (strike-through),
+            indicando que o conteúdo não é mais válido ou foi substituído.
+        </p>
+
+        <pre><code>&lt;del&gt;Texto deletado&lt;/del&gt;</code></pre>
+
+        <del>Texto deletado</del>
+
+        <p><a href="#indice">Voltar ao Índice</a></p>
+        <hr/>
+
+        <h2 id="abbr">Tag abbr</h2>
+
+        <p> A tag abbr em HTML é usada para marcar abreviações ou acrônimos. Ao usar essa tag, você pode
+            fornecer uma explicação ou expansão do termo abreviado, o que melhora a acessibilidade e a
+            compreensão do conteúdo.
+        </p>
+
+        <p>Exemplo:</p>
+
+        <p> Ao passar o ponteiro do mouse em cima da sigla ONU, uma pequena legenda aparece na tela indicando
+            Organização das Nações Unidas
+        </p>
+
+
+        <pre><code>&lt;p&gt;A &lt;abbr title="Organização das naçoes unidas"&gt;ONU&lt;/abbr&gt;Foi fundada em 1945.&lt;/p&gt;</code></pre>
+
+        <p>A <abbr title="Organização das Nações Unidas">ONU</abbr> Foi fundada em 1945.</p>
+
+    
+
+        <p><a href="#indice">Voltar ao Índice</a></p>
+        
+
+        <hr />
+
+        <p id="ref">Referências</p>
+        <ul>
+            <li><a href="https://www.portaldefinancas.com/html/" target="_blank">www.portaldefinancas.com</a></li>
+            <li><a href="https://openai.com/index/chatgpt/" target="_blank">openai.com</a></li>
+            <li><a href="https://pt.wikipedia.org/" target="_blank">Wikipédia</a></li>
+
+        </ul>
+
+        <br><br>
+
+        <footer>Produzido por Marcos Silva&reg;</footer>
+
+    </body>
+
+</html>

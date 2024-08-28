@@ -1,0 +1,263 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
+
+h1 {
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin: 0px 0px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0px 0px;
+    margin-bottom: 45px;
+}
+
+/*Seção banner*/
+
+.banner {
+    background-image: url("img/banner-topo.jpg");
+    background-size: cover;  /* Ajusta o tamanho da imagem para cobrir toda a div */
+    height: 800px;  /* Define a altura da div banner */
+    background-position: center;
+    width: 100%;
+    padding: 120px 80px;
+    box-sizing: border-box;
+}
+
+.banner .container1 {
+    max-width: 250px;
+    color: 3c184e;
+}
+
+.container, .p1{
+    font-size: 35px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: inline;
+}
+
+.container1 img {
+    width: 30px;
+    padding-right: 5px;
+    
+    
+}
+
+.container1, .p2{
+    font-size: 14px;
+    text-align: center;
+    margin: 0px;
+
+}
+
+.container2 {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    background-color:  #ffffffc4;
+    box-shadow: 0px 8px 32px #1f26875e;
+}
+
+.container2 p{
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: #3c184e;
+    font-size: 25px;
+    text-align: center;
+}
+    
+.container2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container2 img {
+    width: 25px;
+    padding-left: 5px;
+}
+
+/*Seção serviços*/
+
+
+.servicos {
+    width: 100vw;
+    padding: 120px 80px;
+    box-sizing: border-box;
+}
+
+.servicos .listas {
+    max-width: 800px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+    
+.listas li{
+    color: #3c184e;
+    font-size: 20px;
+    padding: 20px;
+    margin: 0px 0px;
+}
+
+ul span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.servicos img{
+    max-width: 800px;
+    margin: 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+/*Seção redes 1*/
+
+.redes1 {
+    padding: 120px 80px;
+    background-color: #3c184e;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.redes1 p {
+    max-width: 800px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.redes1 span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.redes1 div{
+    text-align: center;
+}
+
+.redes1 img{
+    width: 50px;
+    margin: 0 20px
+}
+
+/*Seção Marcas*/
+
+.marcas {
+    width: 100vw;
+    padding: 120px 80px;   
+    box-sizing: border-box;
+}
+
+.marcas div {
+    max-width: 800px;
+    margin: 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.marcas img{
+    height: 148px;
+    width: 148px;
+    margin: 0px 0px;
+    margin-left: 15px;
+    margin-left: 15px;
+}
+
+/*seção redes 2 */
+
+.redes2 {
+    padding: 120px 80px;
+    background-color: #3c184e;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.redes2 p {
+    max-width: 800px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.redes2 span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.redes2 div{
+    text-align: center;
+}
+
+.redes2 img{
+    width: 50px;
+    margin: 0 20px
+}
+
+/*Sessão onde estamos*/
+
+.mapa{
+    text-align: center;
+}
+
+.mapa p{
+    font-size: 20px;
+    color:#1f26875e;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.rodape{
+    width: 100vw;
+    padding: 10px 10px;
+    background-color: #3c184e;
+    box-sizing: border-box;
+}
+
+.rodape p{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+

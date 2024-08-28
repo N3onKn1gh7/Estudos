@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas e estilizando com css</title>
+    <style>
+
+        table {
+            -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+            box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24); 
+            border: solid 1px gray;
+        }
+
+        table thead th{
+            background-color:  black;        /*Deixa o cabeçaho com cor de fundo diferente*/
+            color: white;
+        }
+
+        table tfoot td {
+            background-color: lightgray;    /*Deixa o rodape da tabela de cor diferente*/
+        }
+
+        table tbody tr:nth-child(even) td {   /*deixa as linhas pares (even) de outra cor*/
+            background-color: #E9E9E9;
+        }
+
+        table tbody tr:hover td {             /*deixa a linha de cor diferente ao passa o mouse em cima*/
+            background-color: #f1f1f1; 
+            cursor: pointer;                  /*Troca o ponteiro do mouse ao apontar para tabela*/
+        }
+    </style>
+</head>
+
+<body>
+    <table width="250" align="center" cellspacing="0" cellpadding="5"> <!--O valor 0 em cellspacing retira o estaçamento padrao da célula-->
+        <caption>Tabela de idades de pessoas aleatórias</caption>
+        <thead>
+            <tr>
+                <th colspan="2">minha tabela</th> <!--deixa a tabela "mesclada", ou seja, nesse caso expande a cor de fundo da tabela nome para a tabela idade -->
+            </tr>
+            <tr id="1">                            <!--O identificador aqui erve para ancorar a linha para facilitar o trabalho do javascript-->
+                <th title="Nome Completo">Nome</th>
+                                                    <!--Por regra uma tabela deve ter o nome meis curto possivel, e para auxiliar utilizamos title com uma explicação se necessario, nesse caso nome completo-->
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="2">
+                <td>Joselito</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td id="3">Mike Pondsmith</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td id="4">Gary Gygax</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td id="5">Joe Biden</td>
+                <td>99</td>
+            </tr>
+            <tr id="6">
+                <td>Donald Trump</td>
+                <td>15</td>
+            </tr>
+            <tr id="7">
+                <td>Jair Bolsonaro</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td id="8">Jhonny Silverhand</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td id="9">Vincent</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td id="9">Luiz Ignacio</td>
+                <td>124</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Total</td>
+            <td>9</td>
+        </tfoot>
+    </table>
+</body>
+
+</html>

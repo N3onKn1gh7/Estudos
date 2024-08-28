@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com midias</title>
+</head>
+<body style="background-color: black;">
+    <h1 style="color: aliceblue;">TAGS DE MIDIA</h1><br><br><br>
+
+    <h3 style="color: aliceblue;">Imagens</h3><br><br>
+
+    <p style="color: aliceblue;">Imagem de um gif da pasta do projeto</p>
+    <img src="midias/delamane.gif"><br><br><br><br> <!--Imagem no tamanho natural sem ajuste-->
+
+    <p style="color: aliceblue;">Imagem em formato jpg da pasta do projeto</p>
+    <img src="midias/moto2.jpg" width="500"><br><br> <!--Ao definir apenas width(largura) a height(altura) ajista automaticamente-->
+
+    <p style="color: aliceblue;">Tag audio</p>
+
+    <audio autoplay controls><!--Autoplay inicia a musica automatica Controls adiciona um controle na página, sem eles a pagina fica com som de fundo sem controle-->
+        <source src="midias/nexus.mp3"><br><br>
+        Seu navegador não tem suporte para este audio <!--essa mensagem aparece caso o navegador seja antigo-->
+    </audio>
+
+    <p style="color: aliceblue;">Tag video</p>
+    <video autoplay controls loop width="500"> <!--com loop é possivel fazer o video ou a musica ficar repetindo-->
+        <source src="midias/waterfall.mp4">
+    </video>
+
+    <p style="color: aliceblue;">Tag iframe</p>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231263.0661642198!2d121.26612898616366!3d25.085424815755854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ac6b61dbbd8b%3A0xbcd1baad5c06a482!2zVGFpcMOpLCBUYWl3YW4!5e0!3m2!1spt-BR!2sbr!4v1718900684143!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ibNrPjETR_k?si=zekpM7GKxN2Nkcba" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>

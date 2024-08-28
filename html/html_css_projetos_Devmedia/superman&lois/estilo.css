@@ -1,0 +1,92 @@
+
+
+.topo {
+    width: 100%;                  /*Define 100% a largura de um elemento pai*/
+    font-size: 22px;
+    font-family: sans-serif;
+    background: #4710c1;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.topo div {
+    width: 100%;                  /*Define 100% a largura de um elemento pai*/
+    max-width: 1024px;            /*Instrui o navegador a não deixar o elemento ultrapassar 1024px mesmo que haja espaço no elemento pai*/
+    margin: 20px auto;               /*centraliza horizontalmente um elemento em seu container pai. "0" Define margem de px inferior e superior e auto distribui automaticamente a margem horizontalmente*/
+}
+
+.topo span {
+    margin: 0 30px;
+}
+
+.topo a {
+    color: #4710c1;
+    background: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 6px;
+    padding: 7px 15px;
+    border-radius: 20px;
+}
+
+.img-capa{
+    width: 100%;
+}
+
+.secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.secao h2 {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.secao p {
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 12px 0;
+}
+
+.secao img {
+    width: 100%;
+}
+
+.secao a {
+    color: blue;
+}
+
+.galeria {
+    display: flex;                              /*será um contêiner flexível, o que significa que seus filhos (itens dentro do contêiner) podem ser dispostos em um layout flexível*/
+    overflow-x: scroll ;                        /*Essa propriedade determina o comportamento de transbordamento na direção horizontal (eixo x). Com scroll, um scroll horizontal será adicionado ao contêiner se o conteúdo ultrapassar a largura disponível. */
+    margin: 0 auto 20px auto;
+}
+
+.galeria img {
+    width: 315px;
+    margin: 10px;
+}
+
+.imagem-sombra {
+    box-shadow: 10px 10px 10px #939393;
+}
+
+.informacao {
+    margin: 15px auto;
+}
+
+.rodape {
+    width: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    background: #4710c1;
+    color: #fff;
+    padding: 12px 0;
+}

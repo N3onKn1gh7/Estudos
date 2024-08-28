@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cadastro</title>
+</head>
+<body> 
+
+    <!--____________________________TAG FORM______________________________________--> 
+
+    <form name="cadastro" method="POST" action="https://meusite.com.br/cadastro">       
+        Nome: <input type text="text" name="nome"/><br>
+        Idade: <input type="number" name="idade"/><br>
+        Senha: <input type="password" name="senha"/><br>
+        <button type="submit">Enviar</button> 
+    </form>
+
+    <br><br><br>
+
+    <!--________________________TAG INPUT E SEUS TIPOS_____________________________-->
+    
+    <form>
+        <label>texto: </label><input type="text" /><br>
+        
+        <label>Numero: </label><input type="number" min="0" max="99" step="5"/><br>
+        
+        <label>Botão: </label><input type="button" value="enviar" /><br><br>
+        
+        <label>Range: </label><input type="range" min="0" max="100" value="50"/><br><br>
+        
+        <label>Color: </label><input type="color"/><br><br>
+
+        <label>E-mail: </label><input type="email"/><br>
+        <label>Botão: </label><input type="submit" value="enviar" /><br><br>
+
+        <label>Url: </label><input type="url"/><br>
+        <label>Botão: </label><input type="submit" value="enviar" /><br><br>
+
+        <label>Data: </label><input type="date"><br>
+        <label>Botão: </label><input type="submit" value="enviar" /><br><br>
+
+        <label>Semana </label><input type="week"/><br>
+        <label>Botão: </label><input type="submit" value="enviar" /><br><br>
+
+        <label>Mês </label><input type="month"/><br>
+        <label>Botão: </label><input type="submit" value="enviar" /><br><br>
+
+        <label>Checkbox </label><input type="checkbox"/><br><br>
+
+        <label>Radio: </label><input type="radio" name="aceitar"/><input type="radio" name="aceitar"/><br><br>
+
+        </label>Hidden: <input type="hidden"/><br><br>
+
+        </label>File: <input type="file" multiple/><br><br>
+
+        </label>Search: <input type="search"/>
+    </form>
+
+    <br><br><br>
+
+    <!--__________________________CHECKBOX E RADIO___________________________-->
+    
+    <form method="get">
+        <h3>Você selecionou: Pizza de Calabreza</h3>
+        <p>Quais opcionais você deseja?</p>
+
+        <!--É importante em name declarar o nome seguido de [] e com form method="post" do contrário quando 
+        chegar no serv ele vai pegar somente a ultima opção. Com o colchetes [] o backend entende que isso 
+        não é só um valor, e sim uma lista-->
+
+
+        <input type="checkbox" name="opcional[]" value="queijo"> + queijo <br>
+        <input type="checkbox" name="opcional[]" value="queijo"> + calabresa <br>
+        <input type="checkbox" name="opcional[]" value="queijo"> + cebola <br>
+        <input type="checkbox" name="opcional[]" value="queijo"> + azeitona <br>
+
+          
+        <!--Para nâo haver problemas de selecionar os dois radios ao mesmo tempo, deve-se  nomea-los com o 
+        mesmo nome e declarar values diferentes como no exemplo sim e não. Por que o navegador permite apenas
+        uma opção selecionada, ou seja, se vc selecionar sim e depois não, o sim vai desmarcar-->
+
+
+        <p>Borda recheada?</p>
+        <input type="radio" name="borda" value="sim">Sim<br>
+        <input type="radio" name="borda" value="nao">Não<br>
+
+        <!--O mesmo ocorre em bebida, o cliente vai seleciorar um ou outro, por isso name pemanece o mesmo
+        e value muda-->
+
+        <p>Bebida</p>
+        <input type="radio" name="bebida" value="suco">Suco<br>
+        <input type="radio" name="bebida" value="refrigerante">Refrigerante<br>
+        <input type="radio" name="bebida" value="agua">Água<br>
+        <input type="radio" name="bebida" value="nenhum">Nenhum<br><br>
+
+        <button type="submit">Enviar pedido</button>
+    </form>
+        
+    <br><br><br>
+
+    <!--______________________Button e seus tipos______________________-->
+
+    
+    <form onsubmit="" method="get">  <!--com onsubmit, ao apertar o botao submit, os campos são previamente validados antes de enviar-->     
+        Nome*: <input type text="text" name="nome"/><br>
+        Idade*: <input type="number" name="idade"/><br>
+        Senha*: <input type="password" name="senha"/><br><br>
+
+        <button type="submit">enviar</button><br>
+
+        <button type="reset">Limpar</button><br><br><br><br> <!--limpa os campos preenchidos-->
+        
+
+        <button type="button">Clicavel</button><br><br> <!--botão simples-->
+        <button type="button" onclick="alert('Cliquei aqui')">Clicavel</button><br><br> <!--botão com mensagem so clicar-->
+        <button type="button" onmouseover="alert('Passei aqui')">Passe o mouse</button><br><br> <!--botão com mensagem ap passar o mouse-->
+        
+    </form>
+
+    <br><br><br>
+
+    <!--________________________Select e seus tipos______________________-->
+
+
+    <!--Select box-->
+
+    <form onsubmit="" method="get">
+        <label>Nome: </label><input type="text" name="nome"/><br>
+        <label>Cargo:</label>
+        <select name="role">
+            <option value="">Selecione o cargo</option>
+            <option value="gerente">Gerente</option>
+            <option value="diretor">Diretor</option>
+            <option value="presidente">Presidente</option>
+        </select>
+        <br>
+        <label>Assunto:</label><input type="text" name="subject"><br>
+        <label>Mensagem:</label><br>
+        <!--com textarea vc define um box de texto para o usuario, e se quiser um maximo se linhas (rows) e colunas (cols)-->
+        <textarea rows="10" cols="50" name="message"></textarea><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+
+</body>
+</html>

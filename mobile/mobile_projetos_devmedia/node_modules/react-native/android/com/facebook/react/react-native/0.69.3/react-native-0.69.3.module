@@ -1,0 +1,670 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.facebook.react",
+    "module": "react-native",
+    "version": "0.69.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDefaultApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.facebook.infer.annotation",
+          "module": "infer-annotation",
+          "version": {
+            "requires": "0.18.0"
+          }
+        },
+        {
+          "group": "com.facebook.yoga",
+          "module": "proguard-annotations",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "javax.inject",
+          "module": "javax.inject",
+          "version": {
+            "requires": "1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat-resources",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.autofill",
+          "module": "autofill",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "fresco",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "imagepipeline-okhttp3",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "ui-common",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.facebook.soloader",
+          "module": "soloader",
+          "version": {
+            "requires": "0.10.3"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-urlconnection",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.facebook.fbjni",
+          "module": "fbjni-java-only",
+          "version": {
+            "requires": "0.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "react-native-0.69.3-debug.aar",
+          "url": "react-native-0.69.3-debug.aar",
+          "size": 34957538,
+          "sha512": "23b58df512680fe863d42d12cb9be11cc2323792154f43617b93c73a9f83af6f38a4581bb4a41b66685a0dc3a1025a74ee2b2a8837ff92aa22dd143c3cb80585",
+          "sha256": "f36a50e059ed672a4793a61cb6388f73f85bb06a4f4bd6bb191293cd6c876813",
+          "sha1": "3ad56eed2dee5b2ad67ada0ac2eaec50371d3f07",
+          "md5": "560f789684754c7d56bcc821fba839c9"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDefaultRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.facebook.infer.annotation",
+          "module": "infer-annotation",
+          "version": {
+            "requires": "0.18.0"
+          }
+        },
+        {
+          "group": "com.facebook.yoga",
+          "module": "proguard-annotations",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "javax.inject",
+          "module": "javax.inject",
+          "version": {
+            "requires": "1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat-resources",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.autofill",
+          "module": "autofill",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "fresco",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "imagepipeline-okhttp3",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "ui-common",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.facebook.soloader",
+          "module": "soloader",
+          "version": {
+            "requires": "0.10.3"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-urlconnection",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.facebook.fbjni",
+          "module": "fbjni-java-only",
+          "version": {
+            "requires": "0.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "react-native-0.69.3-debug.aar",
+          "url": "react-native-0.69.3-debug.aar",
+          "size": 34957538,
+          "sha512": "23b58df512680fe863d42d12cb9be11cc2323792154f43617b93c73a9f83af6f38a4581bb4a41b66685a0dc3a1025a74ee2b2a8837ff92aa22dd143c3cb80585",
+          "sha256": "f36a50e059ed672a4793a61cb6388f73f85bb06a4f4bd6bb191293cd6c876813",
+          "sha1": "3ad56eed2dee5b2ad67ada0ac2eaec50371d3f07",
+          "md5": "560f789684754c7d56bcc821fba839c9"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDefaultSourcePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "react-native-0.69.3-debug-sources.jar",
+          "url": "react-native-0.69.3-debug-sources.jar",
+          "size": 1027249,
+          "sha512": "7a89a96296035769849d4ba440ef076c86f88a28853281c0585926d852f7f8530301dc0e5b10769512002461f3468cc610d2d6b31b34a036ec757a90a3fe26dc",
+          "sha256": "079f3d6c491c443f0ee0d9a92506d6e123cefa72e793a3531484f9efef0ddb9c",
+          "sha1": "add1b8aa1b20c59f4033dd11cec7d143c1885415",
+          "md5": "51ff4770c41fdc77704c06fae111fcd4"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDefaultJavaDocPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "react-native-0.69.3-debug-javadoc.jar",
+          "url": "react-native-0.69.3-debug-javadoc.jar",
+          "size": 3746074,
+          "sha512": "f0b1d73a46cde6bc7c15e8f4884505f0e838a1e27dee477d87281bbe71635de1e1ac63cf2af4184b48ea4ba043ac84d53d1a6c76e478dd26ebba4e917d70972f",
+          "sha256": "8ad8f384d408526e8eb4aee8d4d7afedb73507477cbdb03c1b59a3586f4f3fc9",
+          "sha1": "401038eba216682c65d820cf7665360ba76d0776",
+          "md5": "1c53fb98fba7a208cf30163157333e8d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantDefaultApiPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.facebook.infer.annotation",
+          "module": "infer-annotation",
+          "version": {
+            "requires": "0.18.0"
+          }
+        },
+        {
+          "group": "com.facebook.yoga",
+          "module": "proguard-annotations",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "javax.inject",
+          "module": "javax.inject",
+          "version": {
+            "requires": "1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat-resources",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.autofill",
+          "module": "autofill",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "fresco",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "imagepipeline-okhttp3",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "ui-common",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.facebook.soloader",
+          "module": "soloader",
+          "version": {
+            "requires": "0.10.3"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-urlconnection",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.facebook.fbjni",
+          "module": "fbjni-java-only",
+          "version": {
+            "requires": "0.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "react-native-0.69.3-release.aar",
+          "url": "react-native-0.69.3-release.aar",
+          "size": 13343881,
+          "sha512": "31a27441cadaba2326c50a2ac547456b0fb7e2bdcf55970640b280efcc49c951e82cefd3299d0e6ec2c5049a4abd4068a392b8b652259a5bf5fc187cedd4ccd1",
+          "sha256": "e2e38655b8ed0b524a8a5f113f537ab64896577f4284ab3efef5c31a5e19e637",
+          "sha1": "48998cd578630a36b5a5516940a8fc0c7ca7caf3",
+          "md5": "2202a5a84ec2082cc4ad537362490b5e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantDefaultRuntimePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.facebook.infer.annotation",
+          "module": "infer-annotation",
+          "version": {
+            "requires": "0.18.0"
+          }
+        },
+        {
+          "group": "com.facebook.yoga",
+          "module": "proguard-annotations",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "javax.inject",
+          "module": "javax.inject",
+          "version": {
+            "requires": "1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat-resources",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.autofill",
+          "module": "autofill",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "fresco",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "imagepipeline-okhttp3",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "ui-common",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.facebook.soloader",
+          "module": "soloader",
+          "version": {
+            "requires": "0.10.3"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-urlconnection",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.facebook.fbjni",
+          "module": "fbjni-java-only",
+          "version": {
+            "requires": "0.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "react-native-0.69.3-release.aar",
+          "url": "react-native-0.69.3-release.aar",
+          "size": 13343881,
+          "sha512": "31a27441cadaba2326c50a2ac547456b0fb7e2bdcf55970640b280efcc49c951e82cefd3299d0e6ec2c5049a4abd4068a392b8b652259a5bf5fc187cedd4ccd1",
+          "sha256": "e2e38655b8ed0b524a8a5f113f537ab64896577f4284ab3efef5c31a5e19e637",
+          "sha1": "48998cd578630a36b5a5516940a8fc0c7ca7caf3",
+          "md5": "2202a5a84ec2082cc4ad537362490b5e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantDefaultSourcePublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "react-native-0.69.3-release-sources.jar",
+          "url": "react-native-0.69.3-release-sources.jar",
+          "size": 1027231,
+          "sha512": "ee35d6e83f8f95a91456435da6cc740fcb9c52086245351fd3248378cdfc66fbe2f40a17207c42838437baeb5d7d4a6018478cf80e9f6ee498adf190af6b5827",
+          "sha256": "077712b7c712db06b427d755ca9f2376c38358ffc74c5436e8c5314f1d42af87",
+          "sha1": "901e3010d7f8ae37f67f83b416f2a02ea295f021",
+          "md5": "16eff8884bf06a9bb627105e3fa5d547"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantDefaultJavaDocPublication",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "react-native-0.69.3-release-javadoc.jar",
+          "url": "react-native-0.69.3-release-javadoc.jar",
+          "size": 3745916,
+          "sha512": "47d4cb1e0c1c65b22feebf28502d06d56062b31b1e852c882e6c26262522554301486e66b7fdf6a15c5acd8f5f448faf777137dc3fd49b266ab59c0bd09d1c59",
+          "sha256": "7e0ae3cdf0b9e215a34f9c06718ea06d7ff20672bc1f06e4d56199185ceddcc9",
+          "sha1": "555ad97ceba2a16a1591fee65c32cad31c9110c5",
+          "md5": "0783a0aae910536fec9630d1af638827"
+        }
+      ]
+    }
+  ]
+}

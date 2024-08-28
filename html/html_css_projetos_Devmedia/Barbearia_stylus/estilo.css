@@ -1,0 +1,85 @@
+body {
+    background-color: #f1f1f1;
+}
+
+img {
+    width: 190px; 
+     
+    
+}
+
+div {
+    width: 600px;            /*defini a largura do conteudo de div */
+    margin: 0 auto;          /*com "0" defini a margem superior e inferior valor 0 e "auto" margens dir e esq automaticas*/
+    text-align: center;      /* "center" deixou todo o conteúdo das tags div no centro (incluindo a imagem)*/ 
+}
+   
+h1 {
+    border: 5px solid black; /* OBS Lembrar de não colocar virgula entre os valores*/
+    font-size: 24px;
+    font-family: Verdana;
+    color: #606062;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: Verdana;
+    color: #7a797b;
+    margin: 35px 20px;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: Verdana;
+    color: #7a797b;
+    border-top: 2px solid #7a797b;
+    border-bottom: 2px solid #7a797b;
+    padding: 10px 10px;
+    
+}
+
+p {
+    font-size: 18px;
+    font-family: Verdana;
+    text-align:justify;
+    color: #7a797b;
+    
+}
+
+a {
+    display: block; /*vide observação abaixo*/
+    width: 250px;
+    font-size: 16px;
+    font-family: verdana;
+    font-weight: bold;
+    color: #f1f1f1;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 5px;
+    background-color: #25d366;
+    margin: auto; 
+    margin-top: 30px;
+    
+   }
+
+   /* na tag "a" tive um problema com a propriedade margin top que não estava funcionando*/
+   /* em uma conversa com o chatGPT ele me indicou usar a propriedade "display:block" para*/
+   /*forçar a tag "a" a se comportar como um elemento de bloco, pois no meu codigo, "a" tinha */
+   /* o valor padrão "display: inline" que fica na mesma linha que os elementos ao seu redor*/
+   /*tornando dificil a separação vertical entre ele e o paragrafo "p". Depois disso foi facil*/
+   /*apenas ajustei a largura com width e centalizei usando margin para entao afastar "a" com */
+   /*margin-top de 30px.
+   
+   
+   
+   
+   
+   
+   
+
+
+
+
+

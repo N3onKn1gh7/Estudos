@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+}
+
+p, h1, h2, ul, label, small{
+   color: rgb(201, 88, 54)
+}
+
+td, th{
+    color: rgb(0, 0, 0);
+    line-height: 24px;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(56, 19, 19);
+    padding: 10px 20px 0px;
+    background-image: url("img/papel.jpg");
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: rgb(32, 12, 12);
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(20, 11, 11);
+    min-height: 150px;
+}
+
+table tr:nth-child(odd){
+    background-color: rgb(218, 121, 92);
+}
+
+table tr:nth-child(even){
+    background-color: rgb(201, 88, 54);
+}
+
+table {
+    border: solid 5px rgb(24, 3, 3);
+    box-shadow: 12px 14px 6px 5px rgb(29, 6, 6);
+}
+
+tbody tr:hover td{
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+
+    

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas</title>
+    <style>
+        table tr:nth-child(even) {
+            background-color: burlywood;
+        }
+
+        /*Table tr:nht-clhild seleciona todas filhas pares (even) de tr*/
+        table tr:hover td {
+            background-color: darkgrey;
+        }
+
+        /*hover td todos  os "tds* ficam de outra cor*/
+    </style>
+</head>
+
+<body>
+    <table sumary="tabela de idade de pessoas" border="1" width="250" align="center">
+        <caption>Tabela de idades de pessoas aleatórias</caption>
+        <thead>
+            <tr id="1"> <!--O identificador aqui erve para ancorar a linha para facilitar o trabalho do javascript-->
+                <th title="Nome Completo">Nome</th>
+                <!--Por regra uma tabela deve ter o nome meis curto possivel, e para auxiliar utilizamos title com uma explicação se necessario, nesse caso nome completo-->
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="2">
+                <td>Joselito</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td id="3">Mike Pondsmith</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td id="4">Gary Gygax</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td id="5">Joe Biden</td>
+                <td>99</td>
+            </tr>
+            <tr id="6">
+                <td>Donald Trump</td>
+                <td>15</td>
+            </tr>
+            <tr id="7">
+                <td>Jair Bolsonaro</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td id="8">Jhonny Silverhand</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td id="9">Vincent</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td id="9">Luiz Ignacio</td>
+                <td>124</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Total</td>
+            <td>9</td>
+        </tfoot>
+    </table>
+</body>
+
+</html>

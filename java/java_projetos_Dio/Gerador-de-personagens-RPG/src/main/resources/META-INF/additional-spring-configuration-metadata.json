@@ -1,0 +1,17 @@
+{
+  "groups": [],
+  "properties": [
+    {
+      "name": "springdoc.api-docs.path",
+      "type": "java.lang.String",
+      "description": "The path where OpenAPI documentation will be available.",
+      "defaultValue": "/v3/api-docs"
+    },
+    {
+      "name": "springdoc.swagger-ui.path",
+      "type": "java.lang.String",
+      "description": "The path where Swagger UI will be available.",
+      "defaultValue": "/swagger-ui.html"
+    }
+  ]
+}

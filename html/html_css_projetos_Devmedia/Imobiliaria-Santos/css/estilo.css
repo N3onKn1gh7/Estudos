@@ -1,0 +1,165 @@
+
+/*Definindo estilos globais das divs */
+
+div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+/*Definindo estilos globais dos paragrafos*/ 
+
+p {
+    margin: 10px auto;
+    width: 980px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/*Definindo estilos especificos da seção1*/
+
+.secao1 {
+    background-color: #afddfb;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/*Estiliza os links especificos "Sobre" Serviços" "Corretores" e "Contato" */
+
+.linksecao1 {            
+    font-size: 18px;
+    color: #1d1d1d;
+    border-bottom: 2px #1d1d1d;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+/*Define estilo especifico apenas do logo da seção1*/
+
+.logo {
+    width: 150px;
+    display: block; /* O logo não estava ficando centralizado, o chatGPT me auxiliou com esse comando */
+    margin: 0 auto; /* O logo não estava ficando centralizado, o chatGPT me auxiliou com esse comando */
+}
+
+/*Definindo estilo especifico da seção 2 */
+
+.secao2 {
+    margin-top: 50px;
+}
+
+/*Definindo estilo global dos destaques*/
+
+span {
+    font-weight: bold;
+}
+
+/*Definindo estilo especifico dos destaques*/
+
+.azul {
+    color: #1d80c1;
+}
+
+.amarelo {
+    color: #fff81b;
+    font-weight: bold;
+}
+
+.subBranco {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+    
+
+/*Definindo a seção 3 em estilo global em h1 e com estilo especifico no subtitulo e na imagem*/
+
+
+h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+
+}
+
+.subtitulo{
+    color: #1c81c0;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.imovel-assinatura {
+    width: 450px;
+}
+
+
+/*Definindo .seção4*/
+
+.secao4 {
+    background-color: #1d80c1;
+}
+
+.secao4 p{
+    
+    color: #ffffff;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.secao4 ul{
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+    width: 135px;
+    color: #ffffff;
+    line-height: 42px;
+    text-align: left;
+    font-size: 22px;
+}
+
+
+/*Definindo seção 6*/
+
+
+.secao6 {
+    background-color: #1d80c1;
+    
+}
+
+.secao6 p {
+    text-align: center;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.secao6 ul {
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 210px;
+    margin-left: auto;
+}
+
+.secao6 li {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+    
+}
+
+
+

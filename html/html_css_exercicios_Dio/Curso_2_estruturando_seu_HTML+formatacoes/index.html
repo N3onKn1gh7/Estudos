@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--______________________FORMATANDO TEXTOS PARTE 1____________________-->
+    <div>
+
+        <i>Programe seu futuro global agora!</i><br><!--texto em italico-->
+        <b>Programe seu futuro global agora!</b><br><!--texto em negrito-->
+        <u>Programe seu futuro global agora!</u><br><!--texo sublinhado-->
+        <mark>Programe seu futuro global agora!</mark><br><!--texto destacado-->
+        10<sup>2</sup><br><!--adiciona um texto menor e acima do texto anterior-->
+        10<sub>2</sub><br><!--adiciona um texto menor e abaixo do texto anterior-->
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad officia suscipit minima consectetur placeat
+            voluptate, eum, esse asperiores molestias reprehenderit saepe maxime assumenda rem aliquid sequi magni
+            distinctio doloribus dignissimos.</p>
+        <blockquote>Programe seu futuro global agora!</blockquote><!--destaca o texto um pouco para direita-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, tempora, beatae rerum, magni illum commodi
+            sequi vitae quod quis obcaecati eius ea! Sequi, natus facilis dignissimos suscipit illo quos officiis.</p>
+
+        <strong>Programe</strong> seu futuro global agora!<br><br><br>
+        <!--Além de destacar em negrito, ele da mais ênfase ao texto, quando uma IA ler esse texto, ele dará mais peso na palavra -->
+
+
+
+        <!--______________________FORMATANDO TEXTOS PARTE 2______________________-->
+
+        <font color="red" face="Arial">Programe</font> seu futuro global agora<br><br><!--adicionando cores e fontes-->
+
+    </div>
+
+
+    <div>
+        <!--_______________________________TAG E SPAN___________________________________-->
+
+        <style>
+            span {
+                color: red;
+            }
+        </style>
+
+
+        Dio<span>.</span>me<br><br><!--com span vc pode alterar cores, tamanho , etc de um elemento-->
+
+
+    </div>
+    <div>
+        <!--___________________FIELDSET E  LEGEND______________________________________-->
+      
+      <h1>Formulário de cadastro</h1>
+       <fieldset> <!--Faz um campo em volta do conteudo-->
+          <legend>Dados pessoais</legend> <!--adiciona uma descrição no meio do campo-->
+            <label>Nome:</label><input type="text"><br>
+            <label>Profissão:</label><input type="text"><br>
+            <label>Endereço:</label><input type="text"><br>
+            <label>Bairro:</label><input type="text"><br>
+       </fieldset>
+
+       <br><br><br>
+      
+    </div>
+    <div>
+        <!--____________________________TAG VIDEO_________________________________________-->
+        
+           <video controls autoplay width="400" height="250">
+                <source src="retrowave.mp4">
+           </video>
+    </div>
+    <div>
+        <!--____________________________TAG IFRAME_________________________________________-->
+
+        <!--iframe permite trazer conteudos externos como videos do youtube, mapas do google, 
+        e ate mesmo sites inteiros-->
+
+        <h1>Embeds vs Iframes</h1>
+
+
+        <!--incorporando um site inteiro-->
+
+        <iframe src="http://dio.me" width="500" height="400"></iframe>
+
+        <!--Incorporando um mapa-->
+        <!--basta ir ate o google maps escolher a opção compartilhar e depois a opção incorporar-->
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6150.697069786557!2d-46.604676337902404!3d-23.56031243231759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5944544318af%3A0x69468e8f7a2f29d6!2sMooca%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1718854136254!5m2!1spt-BR!2sbr" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+
+        <!--incorporando um video do youtube-->
+        <!--basta ir ate o youtube escolher a opção compartilhar e depois a opção incorporar-->
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mRhjlDN4Ezo?si=c6wZ-IoV42mvtq9J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </div>
+
+
+</body>
+
+</html>

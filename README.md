@@ -22,7 +22,6 @@ Ao longo dos exercícios e projetos, você encontrará o uso das seguintes tecno
 - **HTML5 e CSS3:** Tecnologias essenciais para desenvolvimento de páginas web.
 - **JavaScript:** Linguagem de programação para criar interatividade nas páginas web.
 - **React Native:** Framework para desenvolvimento de aplicativos móveis multiplataforma.
-- **Linux:** Sistema operacional utilizado para ambientes de desenvolvimento e deployment.
 
 ## Como Utilizar
 

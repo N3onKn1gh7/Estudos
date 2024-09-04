@@ -1,5 +1,5 @@
 # Aula de Spring boot do professor Nélio Alves
-[Link da aula no youtube](https://youtu.be/D4frmIHAxEY?si=3wIKLSjfR8g7tzZD)
+[Link da aula no youtube](https://youtu.be/D4frmIHAxEY?si=ZKAvi8X1WCQ_UJLR)
 
 ### Passos da aula
 - Criar o projeto

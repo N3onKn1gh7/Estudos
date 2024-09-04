@@ -18,4 +18,4 @@ as classes e interfaces no formato de arquivos .java</p>
 
   [Projeto 1](https://github.com/N3onKn1gh7/bootcamp-java-2024-dio/tree/main/src/projetos/iphone)
 
-  <img src="https://github.com/N3onKn1gh7/bootcamp-java-2024-dio/blob/main/src/projetos/iphone/img/Untitled%20diagram-2024-07-07-041623.png" width="50%">
+  <img src="https://github.com/N3onKn1gh7/Estudos/blob/main/java/java_projetos_Dio/iphone/img/Untitled%20diagram-2024-07-07-041623.png" width="50%">

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos Especiais</title>
+</head>
+
+<body>
+    <input type="text" id="busca"><br>
+    <p id="descricao">Ele cresceu na minha mente nos últimos tempos. Às vezes eu sentia que ele
+        era um olho me vigiando. Estou sempre sentindo vontade de colocá-lo e
+        desaparecer, sabe... E me perguntando se ele está a salvo, e tocando nele
+        para ter certeza. Tentei trancá-lo, mas descobri que não podia descansar
+        sem ele no bolso. Não sei por quê. Parece que não consigo me decidir</p>
+
+    <script>
+        var campoDeBusca = document.getElementById('busca');
+        var descriptionObject = document.getElementById('descricao');
+        var originalText = descriptionObject.innerHTML; // Salvar o texto original para restaurá-lo a cada busca
+
+        function realizaBusca(busca) {
+            if (busca.trim() === "") {
+                // Se a busca estiver vazia, restaura o texto original
+                descriptionObject.innerHTML = originalText;
+                return;
+            }
+
+            const regex = new RegExp(`(${busca})`, 'ig'); // Simples regex para buscar todas as ocorrências
+            const newText = originalText.replace(regex, `<mark>$1</mark>`); // Substituir cada ocorrência encontrada pela marcação
+            descriptionObject.innerHTML = newText;
+        }
+
+        campoDeBusca.addEventListener('keyup', (e) => realizaBusca(e.target.value));
+    </script>
+</body>
+
+</html>

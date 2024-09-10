@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teoria dos autômatos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="logo">
+                <img src="assets/images/logo.png" width="200" alt="Logotipo do wikipedia" />
+                <figcaption style="display: none;">Logotipo do wikipedia</figcaption>
+            </div>
+        </div>
+    </header>
+
+    <div class="bar"></div>
+
+    <div class="content">
+        <aside class="sidebar">
+            <h2>Título</h2>
+            <ul>
+                <li><a href="maquina_estados.html">Máquina de estados</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <article>
+
+
+                <h1>Teoria dos autômatos</h1>
+                <p>Teoria dos autômatos é o estudo das máquinas abstratas ou autômatos, bem como problemas
+                    computacionais
+                    que podem ser resolvidos usando esses objetos. É objeto de estudo tanto da Ciência da Computação
+                    Teórica
+                    como da Matemática Discreta. A palavra autômato vem da palavra grega αὐτόματα que significa
+                    “autuação”
+                    (em tradução livre), isto é, sem influência externa.</p>
+                <p>A figura abaixo ilustra uma máquina de estados finito, que pertence a uma variedade bem conhecida de
+                    autômato. Este autômato consiste em estados (representados na figura por círculos), e transições
+                    (representadas por setas). Quando o autômato recebe um símbolo de entrada, ele faz uma transição (ou
+                    salto) para outro estado, de acordo com sua função de transição (que tem como entradas o estado
+                    atual e
+                    o símbolo recente). Teoria dos autômatos também está profundamente relacionada à teoria das
+                    linguagens
+                    formais. Um autômato é uma representação finita de uma linguagem formal que pode ser um conjunto
+                    infinito. Autômatos são frequentemente classificados pela classe das linguagens formais que são
+                    capazes
+                    de reconhecer, tipicamente ilustrado pela hierarquia de Chomsky, que descreve as relações entre
+                    várias
+                    línguas e tipos de lógica formalizada.</p>
+                <figure>
+                    <img src="assets/images/DFAexample.jpg" width="300"
+                        alt="Figura que representa o exemplo de autômato descrita no texto acima">
+                    <figcaption>Figura que representa o exemplo de autômato descrita no texto acima</figcaption>
+                </figure>
+                <h2 id="automatos">Autômatos</h2>
+                <p>Segue uma definição introdutória de um tipo de autômato, que ajuda na compreensão dos conceitos
+                    essenciais envolvidos na teoria dos autômatos.</p>
+                <h2 id="descricao_muito_informal">Descrição Muito Informal</h2>
+                <p>Um autômato é uma construção feita de estados, projetado para determinar se a entrada pode ser aceita
+                    ou
+                    rejeitada. Parece muito com um jogo de tabuleiro básico em que cada espaço no tabuleiro representa
+                    um
+                    estado. Cada estado tem informações sobre o que fazer quando uma entrada é recebida pela máquina
+                    (novamente, parece como o que fazer quando você cai num dos espaços em um popular jogo de
+                    tabuleiro).
+                    Quando a máquina recebe um nova entrada, ela analisa o estado e escolhe um novo local baseada na
+                    informações sobre o que fazer ao receber essa entrada nesse estado. Quando não há mais entradas, o
+                    autômato para e o espaço onde está quando conclui determina se o autômato aceita ou rejeita esse
+                    conjunto específico de entradas.</p>
+                <h2 id="descricao_informal">Descrição Informal</h2>
+                <p>Um autômato executa (ou roda) quando lhe é dada uma sequência de entradas (individualmente) em passos
+                    de
+                    tempo discretos. Um autômato processa uma entrada que é obtida a partir de um conjunto de símbolos
+                    ou
+                    letras, que é chamado de alfabeto. Os símbolos recebidos pelo autômato como entrada, em qualquer
+                    etapa
+                    (ou passo) são uma sequência de símbolos chamados de palavras. Um autômato contém um conjunto finito
+                    de
+                    estados. Para cada instante durante a execução, o autômato está em um de seus estados. Ao receber
+                    uma
+                    nova entrada, ele se move para outro estado (ou faz a transição) baseado numa função que tem o
+                    estado
+                    atual e o símbolo como parâmetros. Esta função é chamada de função de transição. O autômato lê os
+                    símbolos da palavra de entrada, um após o outro, e faz a transição de estado para estado, de acordo
+                    com
+                    a função de transição, até a palavra ser totalmente lida. Uma vez que a palavra de entrada foi lida,
+                    diz-se que o autômato deve parar. O estado no qual o autômato para é chamado de estado final.
+                    Dependendo
+                    do estado final, o autômato pode aceitar ou rejeitar uma palavra de entrada. Existe um subconjunto
+                    de
+                    estados do autômato, que é definido como o conjunto de estados de aceitação. Se o estado final é um
+                    estado de aceitação, então o autômato aceita a palavra. Caso contrário, a palavra é rejeitada. O
+                    conjunto de todas as palavras aceitas por um autômato é chamado de linguagem reconhecida pelo
+                    autômato.
+                    Qualquer subconjunto da linguagem de um autômato é uma linguagem reconhecida pelo autômato.
+                    Em suma, um autômato é um objeto matemático que toma uma palavra como entrada e decide se a aceita
+                    ou
+                    rejeita. Como todos os problemas computacionais são redutíveis para o problema de aceitação/rejeição
+                    de
+                    palavras, (todas as instâncias do problema podem ser representadas por um tamanho finito de
+                    símbolos)[carece de fontes], a teoria dos autômatos desempenha um importante papel na teoria
+                    computacional.</p>
+
+                <h2 id="definicao_formal">Definição formal</h2>
+                <h3>Autômatos</h3>
+                <h3>Definição de máquina de estados finita</h3>
+                <p>Um autômato determinístico finito é representado formalmente por uma 5-tupla (Q,Σ,δ,q0,F), onde:</p>
+                <ul>
+                    <li>Q é um conjunto finito de estados.</li>
+                    <li>Σ é um conjunto finito de símbolos, chamado de alfabeto do autômato.</li>
+                    <li>δ é a função de transição, isto é, δ: Q x Σ → Q.</li>
+                    <li>q0 é o estado inicial, isto é, o estado do autômato antes de qualquer entrada ser processada,
+                        onde
+                        q0 ∈ Q.</li>
+                    <li>F é um conjunto de estados de Q (isto é, F ⊆ Q) chamado de estados de aceitação.</li>
+                </ul>
+                <h3>Palavra de entrada</h3>
+                <p>Um autômato lê uma string (cadeia de caracteres) finita de símbolos a1,a2,...., an, onde ai ∈ Σ, que
+                    é
+                    chamada de palavra de entrada. O conjunto de todas as palavras é denotado por Σ*.</p>
+                <h3>Execução</h3>
+                <p>A execução de um autômato sobre uma palavra de entrada w = a1,a2,...., an ∈ Σ*, é uma sequência de
+                    estados q0, q1,q2,...., qn, onde qi ∈ Q tal que q0 é o estado inicial e qi = δ(qi-1,ai) para 0 < i ≤
+                        n. Em outras palavras, no começo o autômato está no estado inicial q0, e então o autômato lê
+                        símbolos da palavra de entrada sequencialmente. Quando o autômato lê o símbolo ai ele pula para
+                        o estado qi=δ(qi-1,ai). Diz-se que qn é o estado final da execução.</p>
+                        <h3>Palavra de aceitação</h3>
+                        <p>Uma palavra w ∈ Σ* é aceita pelo autômato se qn ∈ F.</p>
+                        <h3>Linguagem reconhecida</h3>
+                        <p>Um autômato pode reconhecer uma linguagem formal. A linguagem L ⊆ Σ* reconhecida por um
+                            autômato
+                            é o conjunto de todas as palavras que são aceitas pelo autômato.</p>
+                        <h3>Linguagens reconhecíveis</h3>
+                        <p>As linguagens reconhecíveis são o conjunto de linguagens que são reconhecidas por algum
+                            autômato.
+                            Para a definição acima de autômatos, as linguagens reconhecíveis são linguagens regulares.
+                            Para
+                            diferentes definições de autômatos, a definição de linguagens reconhecíveis é diferente.</p>
+            </article>
+        </main>
+
+        <nav class="anchors">
+            <h2>Neste Artigo</h2>
+
+            <ul>
+                <li><a href="#automatos">Autômatos</a></li>
+                <li><a href="#descricao_muito_informal">Descrição muito informal</a></li>
+                <li><a href="#descricao_informal">Descrição Formal</a></li>
+                <li><a href="#definicao_formal">Definição Formal</a></li>
+            </ul>
+
+        </nav>
+    </div>
+
+    <footer>
+        <p>Wikipedia 2024. Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>

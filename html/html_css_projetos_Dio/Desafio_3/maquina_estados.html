@@ -5,45 +5,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teoria dos autômatos</title>
+    <title>Máquinas Abstratas</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-
-    <div>
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200" alt="Logotipo do wikipedia" />
-            <figcaption style="display: none;">Logotipo do wikipedia</figcaption>
+    <header>
+        <div>
+            <div class="logo">
+                <img src="assets/images/logo.png" width="200" alt="Logotipo do wikipedia" />
+                <figcaption style="display: none;">Logotipo do wikipedia</figcaption>
+            </div>
         </div>
-    </div>
+    </header>
 
     <div class="bar"></div>
 
     <div class="content">
-        <div class="sidebar">
+        <aside class="sidebar">
             <h2>Título</h2>
             <ul>
-                <li><a href="#">Links</a></li>
+                <li><a href="automatos.html">Autômatos</a></li>
+                <li><a href="maquina_abstrata.html">Máquina Abstrata</a></li>
             </ul>
-        </div>
+        </aside>
 
-        <div class="main">
+        <main>
+            <article>
+                <h1>Máquina de estados finitos</h1>
+                <p>Uma máquina de estados finita (FSM - do inglês Finite State Machine) ou autômato finito é um modelo
+                    matemático usado para representar programas de computadores ou circuitos lógicos. O conceito é
+                    concebido como uma máquina abstrata que deve estar em um de um número finito de estados. A máquina
+                    está em apenas um estado por vez, este estado é chamado de estado atual. Um estado armazena
+                    informações sobre o passado, isto é, ele reflete as mudanças desde a entrada num estado, no início
+                    do sistema, até o momento presente. Uma transição indica uma mudança de estado e é descrita por uma
+                    condição que precisa ser realizada para que a transição ocorra. Uma ação é a descrição de uma
+                    atividade que deve ser realizada num determinado momento.
 
-           
-        </div>
+                    Máquinas de estado finitas podem modelar um grande número de problemas, entre os quais a automação
+                    de design eletrônico, projeto de protocolo de comunicação, análise e outras aplicações de
+                    engenharia. Na biologia e na pesquisa da inteligência artificial, máquinas de estado ou hierarquias
+                    de máquinas de estado são, por vezes, utilizadas para descrever sistemas neurológicos e em
+                    linguística para descrever as gramáticas das linguagens naturais.
+                </p>
 
-        <div class="anchors">
+                <p id="video">Assista ao vídeo abaixo para uma explicação sobre maquina de estados.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/G86AFmpM0B4?si=htB_nZBLH5bzbRuO"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </iframe>
+                <p>O vídeo fornece uma visão geral dos conceitos de maquina de estado finito e Sintese de Circuitos
+                    sequenciais.
+                </p>
+
+                <h2 id="conceitos">Conceitos e Vocabulário</h2>
+                <p>Um estado descreve um nó de comportamento do sistema em que está à espera de uma condição para
+                    executar uma transição. Normalmente, um estado é introduzido quando o sistema não reage da mesma
+                    forma para uma mesma condição. No exemplo de um sistema de rádio de carro, quando se está ouvindo
+                    uma estação de rádio, o estímulo "próximo" significa ir para a próxima estação. Mas quando o sistema
+                    está no estado de CD, o estímulo "próximo" significa ir para a próxima faixa. O mesmo estímulo
+                    desencadeia ações diferentes, dependendo do estado atual. Em algumas representações de máquinas de
+                    estado finitas, também é possível associar ações a um estado:
+                </p>
+
+                <ul>
+                    <li>Ação de entrada: o que é realizado ao entrar no estado.</li>
+                    <li>Ação de saída: o que é executado ao sair do estado.</li>
+                </ul>
+
+                <p>A transição é um conjunto de ações a serem executadas quando uma condição for cumprida ou quando um
+                    evento é recebido. Máquinas de estado são utilizadas para descrever circuitos sequenciais.
+                    Diferentemente de um contador que em geral conta eventos, uma máquina de estado costuma ser usada
+                    para controlar o evento.
+
+                    A máquina está em apenas um estado por vez, este estado é chamado de estado atual. Um estado
+                    armazena informações sobre o passado, isto é, ele reflete as mudanças desde a entrada num estado, no
+                    início do sistema, até o momento presente. Uma transição indica uma mudança de estado e é descrita
+                    por uma condição que precisa ser realizada para que a transição ocorra. Uma ação é a descrição de
+                    uma atividade que deve ser realizada num determinado momento.
+                </p>
+
+
+
+            </article>
+        </main>
+
+        <nav class="anchors">
             <h2>Neste Artigo</h2>
+
             <ul>
-                <li><a href="#">Âncoras</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#conceitos">Conceitos e Vocabulário</a></li>
             </ul>
-        </div>
+        </nav>
     </div>
 
-    <div class="footer">
+    <br><br>
 
-    </div>
+    <footer>
+        <p>Wikipedia 2024. Todos os direitos reservados</p>
+    </footer>
 </body>
 
 </html>

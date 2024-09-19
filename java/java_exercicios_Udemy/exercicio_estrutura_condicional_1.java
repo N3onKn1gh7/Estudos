@@ -8,7 +8,7 @@ public class exercicio_estrutura_condicional_1 {
 
 		int numero = sc.nextInt();
 
-		if (numero >= 0) {''
+		if (numero >= 0) {
 			System.out.println("NAO NEGATIVO");
 		}
 

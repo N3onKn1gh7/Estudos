@@ -46,9 +46,6 @@ export default function App() {
       <CaixaRed></CaixaRed>
       <CaixaBlue></CaixaBlue>
       <CaixaGreen></CaixaGreen>
-      <CaixaRed></CaixaRed>
-      <CaixaBlue></CaixaBlue>
-      <CaixaGreen></CaixaGreen>
       <StatusBar style="auto" />
     </View>
   );

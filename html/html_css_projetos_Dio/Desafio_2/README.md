@@ -1,5 +1,7 @@
 # Sanatório de Arkham
 
+![Demonstração do projeto](https://github.com/N3onKn1gh7/Estudos/blob/main/html/html_css_projetos_Dio/Desafio_2/midia/Anima%C3%A7%C3%A3o.gif)
+
 ## Descrição
 
 Este projeto é um site estático dedicado ao Sanatório de Arkham, inspirado no universo de "Call of Cthulhu". O site foi desenvolvido como parte de um curso específico de HTML, com a intenção de focar na estrutura e conteúdo em HTML, mantendo o uso de CSS ao mínimo.

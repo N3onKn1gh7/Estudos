@@ -5,6 +5,9 @@ console.log('Javascript Funcionando');
 let firstName = 'Marcos';
 let lastName = 'Silva';
 
+
+
+
 /*Imprimindo variaveis*/
 console.log(firstName);
 console.log(lastName);

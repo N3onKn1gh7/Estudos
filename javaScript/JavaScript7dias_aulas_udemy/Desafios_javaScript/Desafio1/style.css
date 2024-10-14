@@ -1,0 +1,23 @@
+
+
+body {
+    border-style: double;
+    border-color: yellow;
+    border-radius: 50%;
+    border-width: 50px;
+    background-image: url("./img/turtles.jpeg");
+    background-repeat: no-repeat;
+    background-position: center 400px;
+
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+    font-size: 80px;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+}

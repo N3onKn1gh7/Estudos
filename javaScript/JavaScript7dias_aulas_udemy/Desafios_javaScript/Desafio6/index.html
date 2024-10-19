@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Adivinhe o número</title>
+  </head>
+  <body onload="init()">
+    <main>
+      <div id="welcomeScreen">
+        <h2>Adivinhe o número <br />1 - 100</h2>
+      </div>
+
+      <div id="gameArea">
+        <section>
+          <h3 id="textOutput">Sua tentativa:</h3>
+          <input type="number" id="inputBox" min="1" max="100" onchange="compareNumbers()"/>
+        </section>
+        <section class="stats">
+          <div class="info">
+            <p>Quantidade de tentativas:</p>
+            <span id="attempts"></span>
+          </div>
+          <div class="info">
+            <p>Suas tentativas:</p>
+            <span id="guesses"></span>
+          </div>
+        </section>
+        <button id="newGameButton" onclick="newGame()">NEW GAME</button>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -6,39 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
 
+    <!-- Normaliza estilos entre navegadores -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/normalize-opentype.css/0.2.3/normalize-opentype.css"
         integrity="sha512-FzZ3/JDud8bWNK4cEbzFg63/pyzJ2eKyP+GIkLsHZvhu7NRHdZRn9BqhXH1xE3AS4gns491NY4uopx9Tci7i8w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Folha de estilo global -->
     <link rel="stylesheet" href="./assets/css/global.css">
+
+    <!-- Carregamento de fontes externas -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="./assets/css/pokedex.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
 
+    <!-- Mais fontes para estilizar -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-
 </head>
 
 <body>
+    <!-- Seção principal do conteúdo -->
     <section class="content">
         <h1>Pokedex</h1>
 
-        <ol id="pokemonList" class="pokemons">
-            
-        </ol>
+        <!-- Lista onde os Pokémon serão exibidos -->
+        <ol id="pokemonList" class="pokemons"></ol>
 
+        <!-- Botão para carregar mais Pokémon na lista -->
         <div class="pagination">
-            <button id="loadMoreButton" type="button">
-                Load More
-            </button>
+            <button id="loadMoreButton" type="button">Load More</button>
         </div>
     </section>
 
-    
+    <!-- Scripts JavaScript que controlam a Pokédex -->
     <script src="/assets/js/pokemon-model.js"></script>
     <script src="/assets/js/poke-api.js"></script>
     <script src="/assets/js/main.js"></script>

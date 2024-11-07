@@ -16,7 +16,7 @@ function loadPokemonItens(offset, limit) {
     pokeApi.getPokemons(offset, limit).then((pokemons = []) => {
         // Constrói o HTML dos Pokémon obtidos
         const newHTML = pokemons.map((pokemon) => `
-            <li class="pokemon ${pokemon.type}">
+             <li class="pokemon ${pokemon.type}" onclick="window.location.href='pokemon-details.html?id=${pokemon.number}'">
                 <span class="number">#${pokemon.number}</span>
                 <span class="name">${pokemon.name}</span>
                 <div class="detail">

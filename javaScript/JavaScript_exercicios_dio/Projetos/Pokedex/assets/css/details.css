@@ -1,0 +1,22 @@
+.pokemon-details {
+    text-align: center;
+}
+
+#pokemonName {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+#pokemonStats {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+ul {
+    background-color: blue;
+    opacity: 70%;
+    color:#fff;
+    border-radius: 1rem;
+    
+}

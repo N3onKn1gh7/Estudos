@@ -3,11 +3,13 @@
 }
 
 #pokemonName {
+    text-transform: capitalize;
     font-size: 2em;
-    margin: 10px 0;
+    margin: 50px 0;
 }
 
 #pokemonStats {
+    text-transform: capitalize;
     list-style: none;
     padding: 0;
     font-size: 1.2em;
@@ -15,8 +17,13 @@
 
 ul {
     background-color: blue;
-    opacity: 70%;
     color:#fff;
     border-radius: 1rem;
     
+}
+
+.pokemon-details {
+    background-color: yellow;
+    border-radius: 1rem;
+    width: 70%
 }

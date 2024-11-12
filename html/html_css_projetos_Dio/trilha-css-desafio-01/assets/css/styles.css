@@ -1,0 +1,35 @@
+
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.banner {
+    background-image: url("../images/banner.png");
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Garante que a imagem de fundo fique centralizada */
+    height: 100vh; /* A altura da .banner vai ocupar a altura total da tela */
+    display: flex; /* Usando Flexbox para centralizar os itens */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center; /* Garante que o texto dentro da .banner também fique centralizado */
+    color: #fff; /* Texto branco para visibilidade */
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo de cima para baixo */
+    align-items: center; /* Centraliza os itens dentro da .banner-content */
+    justify-content: center; /* Garante que o conteúdo da banner fique centralizado */
+    text-align: center;
+}
+
+img {
+    max-width: 100%; /* Ajusta as imagens para não ultrapassarem os limites da tela */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+h1, p {
+    margin: 20px 0; /* Espaçamento entre o título e o parágrafo */
+}

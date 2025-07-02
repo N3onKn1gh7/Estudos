@@ -5,5 +5,21 @@ contatos = {
     "melaine@gmail.com": {"nome": "Melaine", "telefone": "3333-7766"},
 }
 
-telefone = contatos["giovanna@gmail.com"]["telefone"]  # "3443-2121"
-print(telefone)
+
+
+for chave in contatos:
+    print(chave, contatos[chave])
+
+
+
+
+
+
+
+
+#telefone = contatos["giovanna@gmail.com"]["telefone"]  # "3443-2121"
+#print(telefone)
+
+
+#nome = contatos ["chappie@gmail.com"] ["nome"]
+#print(nome)
